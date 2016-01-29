@@ -2,6 +2,6 @@
 
 module.exports = {
     greet: function (name, successCallback, errorCallback) {
-        cordova.exec(successCallback, errorCallback, "PLUGIN by gurinder", "greet", [name]);
+        cordova.exec(successCallback, errorCallback, "Calender", "greet", [name]);
     }
 };
