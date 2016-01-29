@@ -1,0 +1,33 @@
+{
+  "name": "customCalender",
+  "version": "0.0.1",
+  "description": "Custom Calender with UI and displaying events ",
+  "cordova": {
+    "id": "com.hl.mushroom.calenderPlugin",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gurindernarang/customCalender.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.4.0"
+    }
+  ],
+  "author": "Ionic Team (Header labs)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gurindernarang/customCalender/issues"
+  },
+  "homepage": "https://github.com/gurindernarang/customCalender#readme"
+}
