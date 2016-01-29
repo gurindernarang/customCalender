@@ -1,2 +1,28 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="com.hl.mushroom.calenderPlugin" version="0.7.0" xmlns="http://www.phonegap.com/ns/plugins/1.0"><name>Calender</name><engines><engine name="cordova" version="&gt;=3.4.0" /></engines><asset src="www/calender.js" target="js/calender.js" /><js-module name="calender" src="www/calender.js"><clobbers target="calender" /></js-module><platform name="ios"><config-file parent="/*" target="config.xml"><feature name="Calender"><param name="ios-package" value="Calender" /></feature></config-file><source-file src="src/ios/Calender.m" /></platform><platform name="android"><config-file parent="/*" target="res/xml/config.xml"><feature name="Calender"><param name="android-package" value="com.hl.mushroom.calenderPlugin.Calender" /></feature></config-file><config-file parent="/*" target="AndroidManifest.xml"></config-file><source-file src="src/android/Calender.java" target-dir="src/com/hl/mushroom/calenderPlugin/Calender" /></platform></plugin>
+<plugin id="com.hl.mushroom.calenderPlugin" version="0.7.0" xmlns="http://www.phonegap.com/ns/plugins/1.0">
+    <name>Calender</name>
+    <engines>
+        <engine name="cordova" version="&gt;=3.4.0"/>
+    </engines>
+    <asset src="www/calender.js" target="js/calender.js"/>
+    <js-module name="calender" src="www/calender.js">
+        <clobbers target="calender"/>
+    </js-module>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="Calender">
+                <param name="ios-package" value="Calender"/>
+            </feature>
+        </config-file>
+        <source-file src="src/ios/Calender.m"/>
+    </platform>
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="Calender">
+                <param name="android-package" value="com.hl.mushroom.calenderPlugin.Calender"/>
+            </feature>
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+        <source-file src="src/android/Calender.java" target-dir="src/com/hl/mushroom/calenderPlugin/Calender"/>
+    </platform>
+</plugin>
