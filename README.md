@@ -1,7 +1,7 @@
 # customCalender
 Calender with UI and custom events
 
-To add plugin run the following command
+To add plugin run the following command <br/>
 cordova plugin add https://github.com/gurindernarang/customCalender.git
 
 inside app.js write the following code
